@@ -1,0 +1,5 @@
+[registries.x]
+index = "sparse+http://localhost:8080/registry-x/"
+
+[registries.y]
+index = "sparse+http://localhost:8080/registry-y/"

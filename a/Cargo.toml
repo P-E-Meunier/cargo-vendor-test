@@ -1,0 +1,8 @@
+[package]
+name = "a"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+b = { version = "0.1.0", registry = "y" }
+c =  { version = "0.1.0", registry = "y" }

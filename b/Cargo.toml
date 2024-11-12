@@ -1,0 +1,8 @@
+[package]
+name = "b"
+version = "0.1.0"
+edition = "2021"
+include = [ "Cargo.toml", "src/lib.rs" ]
+
+[dependencies]
+c = { version = "0.1.0", registry = "x" }
