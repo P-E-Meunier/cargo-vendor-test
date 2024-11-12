@@ -7,20 +7,26 @@ name = "a"
 version = "0.1.0"
 dependencies = [
  "b",
- "c",
+ "c 0.1.0 (sparse+http://localhost:8080/registry-y/)",
 ]
 
 [[package]]
 name = "b"
 version = "0.1.0"
 source = "sparse+http://localhost:8080/registry-y/"
-checksum = "60ef747e8123b72d45087f6f81e5a77acc986b242ebdde7a8d9bcca49aebf7b7"
+checksum = "c2773b3d8ed96d3bdb3aaf2e5bdf366c0238b72a7dcd0be06abfcff48d573a09"
 dependencies = [
- "c",
+ "c 0.1.0 (sparse+http://localhost:8080/registry-x/)",
 ]
 
 [[package]]
 name = "c"
 version = "0.1.0"
+source = "sparse+http://localhost:8080/registry-x/"
+checksum = "c6966d4186c34729fdae0788126856ec8e18da674ab73e5fa360a09058058e39"
+
+[[package]]
+name = "c"
+version = "0.1.0"
 source = "sparse+http://localhost:8080/registry-y/"
-checksum = "586e82fcff1090648595de5ab1327eb3f5edb38ce1a2b2435d175a239226348e"
+checksum = "c6966d4186c34729fdae0788126856ec8e18da674ab73e5fa360a09058058e39"

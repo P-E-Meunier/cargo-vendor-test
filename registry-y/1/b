@@ -1,1 +1,1 @@
-{ "name": "b", "vers": "0.1.0", "deps": [ { "name": "c", "req": "^0.1.0", "features": [], "optional": false, "default_features": true, "target": null } ], "cksum": "60ef747e8123b72d45087f6f81e5a77acc986b242ebdde7a8d9bcca49aebf7b7", "features": {} }
+{ "name": "b", "vers": "0.1.0", "deps": [ { "name": "c", "req": "^0.1.0", "features": [], "optional": false, "default_features": true, "target": null } ], "cksum": "c2773b3d8ed96d3bdb3aaf2e5bdf366c0238b72a7dcd0be06abfcff48d573a09", "features": {} }
